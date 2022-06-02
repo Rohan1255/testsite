@@ -33,6 +33,9 @@ header{
     align-items: center;
 }
 
+.mobile-menu {
+    display: none;
+}
 .nav-ul{
     list-style:none;
     padding: 0;
@@ -130,8 +133,18 @@ img{
     .sidebar {
         display: none;
     }
-    
+
+    .nav{
+        display: none;
+    }
+
     .navbar {
-        display:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-menu {
+        display: block;
     }
 }
