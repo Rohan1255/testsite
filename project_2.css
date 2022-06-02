@@ -147,4 +147,8 @@ img{
     .mobile-menu {
         display: block;
     }
+    
+    .name {
+        flex:3;
+    }
 }
